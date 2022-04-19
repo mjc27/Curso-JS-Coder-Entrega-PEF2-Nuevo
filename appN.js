@@ -48,7 +48,6 @@ function cotizador() {
 
 function comprar(){
        let sel = JSON.parse(sessionStorage.getItem('seleccion'));
-       console.log(sel);
        if (sel != null){
        
             document.getElementById("compra").innerHTML
